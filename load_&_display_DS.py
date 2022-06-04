@@ -4,7 +4,7 @@ from google.cloud import bigquery
 
 client = bigquery.Client()
 
-dataset_id  = "{}.empl".format(client.project)
+dataset_id = "{}.empl".format(client.project)
 
 dataset = bigquery.Dataset(dataset_id)
 ##
